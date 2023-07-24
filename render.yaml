@@ -1,0 +1,7 @@
+services:
+  - name: nest-app
+    env:
+      - key: NODE_ENV
+        value: production
+    env_secret: []  # Add any environment secrets if required
+    start_cmd: npm run start
